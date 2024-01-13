@@ -4,7 +4,7 @@ This Program helps people to convert from Midi to Tuneshare on Turbowarp.
 
  # Instructions
 
-Download everything as a ZIP.
+- Download everything as a ZIP.
 - Open in a new tab the page https://onlinesequencer.net/ or other source 
 - Load a MIDI file in the tab opened, select all the notes and click "copy".
 - Go to the Input folder, create a new text file, paste the clipboard and save it.
@@ -13,6 +13,8 @@ Download everything as a ZIP.
 - Run the project and all the files in the Input folder will be converted and new text files will be created in the Output folder with the same rootless name e.g. input --> Example.txt ouput--> Example_converted.txt .
 - Open that file, select all and copy it (press crtl+A and the crtl+C).
 - Open my TuneShare project, log in, create a new tune and import the code you copied.
+# NOTE: 
+After running the converter you will either get a success message  `Converstion was successful and is saved as Example_converted.txt is the Output folder.` or a partial success `Converstion was partially successful with X missed notes and is saved as Example_converted.txt is the Output folder.` and if their is a Fatal Error it will give this message "Fatal Error {ErrorMessage}"
 
 # Credits
 
