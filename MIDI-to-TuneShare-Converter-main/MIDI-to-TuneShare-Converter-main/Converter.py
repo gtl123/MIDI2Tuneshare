@@ -1,4 +1,5 @@
-"""Author: Gaurav Shukla and on scrath Gtl123  Data Finished: 13-01-2024 
+"""
+Author: Gaurav Shukla and on scrath Gtl123  Data Finished: 13-01-2024 
 Please do not edit the convert function as it has a lot of hard coded generators expressions so editing one will lead to eteranal doom ;)
 Also this code is roughly 40% smaller than v1.0 and so is quite unreadable so don't try :/ """
 import math , os
@@ -34,8 +35,7 @@ class ConvertMIDItoTuneShare:
             [ (setminmax("X",i) if "slot" in i else None ) for i in notes]
             slots = [ [] for _ in range(self.maxSlots+1)]
             [ (slots[i["slot"]].append({"note": i["note"],"length": min(max(1, i["length"]), 36)-1,"instrument": int(i["instrument"]),"volume": i["volume"]})) for i in notes]
-            code = f"{round(self.tempo*self.quality)}!"
-            code = code + ''.join(list([f"{''.join(list(((((str(self.__code__(data=data))) if self.getNote(self.SBI[self.OSI.index(data['instrument'])], data['note']) else '') if data['instrument'] in self.OSI else '') for data in slot)))}!" for slot in slots]))
+            code =  f"{round(self.tempo*self.quality)}!" + ''.join(list([f"{''.join(list(((((str(self.__code__(data=data))) if self.getNote(self.SBI[self.OSI.index(data['instrument'])], data['note']) else '') if data['instrument'] in self.OSI else '') for data in slot)))}!" for slot in slots]))
             outputname = self.outputname if self.outputname != "" else f"Output/{self.filename.split(sep = '.')[0]}_converted.txt"
             with open(outputname, "w") as f:
                 f.write(code)
