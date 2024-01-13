@@ -2,7 +2,7 @@
 This Program helps people to convert from Midi to Tuneshare on Turbowarp.
 
 
-Instructions
+ # Instructions
 
 Download everything as a ZIP.
 Open in a new tab the page https://onlinesequencer.net/ or other source 
@@ -18,4 +18,4 @@ Credits
 
 Big thanks to https://scratch.mit.edu/users/nerdboy628/ for creating the first fully working MIDI-to-TuneShare converter and for providing the necessary assets (basically the whole Assets folder was created by them). Their project can be found either at https://scratch.mit.edu/projects/870613190/ or https://snap.berkeley.edu/project?username=nerdboy628&projectname=MIDI%20to%20TuneShare%20Converter
 
-Also this project (converter.py file) was created by Gtl123 and feel free to go and listen to his creations:)
+Also this project (converter.py file) was created by Gtl123 (https://scratch.mit.edu/users/Gtl123/) and feel free to go and listen to his creations:)
