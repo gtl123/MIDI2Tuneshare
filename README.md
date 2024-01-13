@@ -9,7 +9,7 @@ This Program helps people to convert from Midi to Tuneshare on Turbowarp.
 - Load a MIDI file in the tab opened, select all the notes and click "copy".
 - Go to the Input folder, create a new text file, paste the clipboard and save it.
 - Do this for however many songs you like.
-- Before running the Converter.py file, change the "tempo" argument in line 60 to the tempo of the song  or it will default to 110 and you can always change tempo in Native Tuneshare as well.
+- Before running the `Converter.py` file, change the `"tempo"` argument in line 60 to the tempo of the song  or it will default to 110 and you can always change tempo in Native Tuneshare as well.
 - Run the project and all the files in the Input folder will be converted and new text files will be created in the Output folder with the same rootless name e.g. input --> Example.txt ouput--> Example_converted.txt .
 - Open that file, select all and copy it (press crtl+A and the crtl+C).
 - Open my TuneShare project, log in, create a new tune and import the code you copied.
