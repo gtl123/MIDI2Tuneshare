@@ -1,6 +1,6 @@
 """
 Author: Gaurav Shukla and on scrath Gtl123  Data Finished: 13-01-2024 
-Please do not edit the convert function as it has a lot of hard coded generators expressions so editing one will lead to eteranal doom ;)
+Please do not edit the convert function as it has a lot of hard coded generators expressions so editing one will lead to eternal doom ;)
 Also this code is roughly 40% smaller than v1.0 and so is quite unreadable so don't try :/ """
 import math , os
 class ConvertMIDItoTuneShare:
@@ -39,7 +39,7 @@ class ConvertMIDItoTuneShare:
             outputname = self.outputname if self.outputname != "" else f"Output/{self.filename.split(sep = '.')[0]}_converted.txt"
             with open(outputname, "w") as f:
                 f.write(code)
-                print(f"Converstion was successful and is saved as {outputname} is the Output folder." if self.missedNotes == 0 else f"Converstion was partially successful with {self.missedNotes} missed notes and is saved as {outputname} is the Output folder.")
+                print(f"Conversion was successful and is saved as {outputname} is the Output folder." if self.missedNotes == 0 else f"Conversion was partially successful with {self.missedNotes} missed notes and is saved as {outputname} is the Output folder.")
         except Exception as commonError:
             Exception(f"Fatal Error {commonError}")
     def fetchvalues(self,i):
