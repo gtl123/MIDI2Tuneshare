@@ -14,7 +14,7 @@ This Program helps people to convert from Midi to Tuneshare on Turbowarp.
 - Open that file, select all and copy it (press crtl+A and the crtl+C).
 - Open CodeGIO's TuneShare project, log in, create a new tune and import the code you copied.
 # NOTE: 
-After running the converter you will either get a success message  `Conversion was successful and is saved as Example_converted.txt is the Output folder.` or a partial success `Conversion was partially successful with X missed notes and is saved as Example_converted.txt is the Output folder.` and if their is a Fatal Error it will give this message "Fatal Error {ErrorMessage}"
+After running the converter you will either get a success message  `Conversion was successful and is saved as Example_converted.txt is the Output folder.` or a partial success `Conversion was partially successful with X missed notes and is saved as Example_converted.txt is the Output folder.` and if their is a Fatal Error it will give this message `Fatal Error {ErrorMessage}`
 
 # Credits
 
